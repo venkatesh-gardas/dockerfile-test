@@ -1,3 +1,3 @@
-FROM docker-registry.hyscale-devgrp1:5000/tomcat:8.5_2
+FROM docker-registry.hyscale-dev:5000/tomcat:8.5.50_3
 COPY . /tmp/
 RUN echo "hello"
